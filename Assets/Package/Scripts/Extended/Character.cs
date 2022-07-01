@@ -101,6 +101,11 @@ namespace MarwanZaky
             if (!IsAlive) { return; }
 
             Alive();
+            
+            if (Input.GetKeyUp(KeyCode.Escape))
+            {
+                Application.Quit();
+            }
         }
 
         protected virtual void Alive()
