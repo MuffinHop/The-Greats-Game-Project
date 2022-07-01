@@ -41,7 +41,6 @@ namespace MarwanZaky
             if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Character") && hit.collider.CompareTag(targetTag))
             {
                 var character = hit.collider.GetComponent<Character>();
-                character.Damage(damage, hit.point);
             }
 
             // Obstacle

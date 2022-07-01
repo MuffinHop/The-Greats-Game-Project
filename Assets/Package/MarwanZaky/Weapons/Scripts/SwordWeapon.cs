@@ -9,8 +9,6 @@ namespace MarwanZaky
 
         private void OnTriggerEnter(Collider col)
         {
-            if (character.IsAttack && col.CompareTag(targetTag))
-                col.GetComponent<Character>().Damage(damage, transform.position);
         }
     }
 }

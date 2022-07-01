@@ -55,8 +55,7 @@ namespace MarwanZaky
 
             controlls.Player.Attack.performed += (res) =>
             {
-                if (IsAlive)
-                    Attack();
+                Debug.Log("Interact?");
             };
 
             controlls.Player.Jump.performed += (res) =>
@@ -129,23 +128,6 @@ namespace MarwanZaky
             controller.Move(velocity * Time.deltaTime);
         }
 
-        protected override void Attack()
-        {
-            if (IsAttack) { return; }
-
-            // LookAtCamera(smoothTime: false);
-
-            base.Attack();
-        }
-
-        protected override void OnDie()
-        {
-            GameManager.Instance.OnGameOver?.Invoke();
-            Cursor.lockState = CursorLockMode.None;
-
-            base.OnDie();
-        }
-
         protected override void Movement()
         {
             var move = (transform.right * Move.x + transform.forward * Move.y).normalized;
@@ -177,8 +159,8 @@ namespace MarwanZaky
 
         private void Jump()
         {
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * GRAVITY * gravityScale);
-            AudioManager.Instance.Play("Jump");
+            /*velocity.y = Mathf.Sqrt(jumpHeight * -2f * GRAVITY * gravityScale);
+            AudioManager.Instance.Play("Jump");*/
         }
 
         private void LookAtCamera(bool smoothTime = true)

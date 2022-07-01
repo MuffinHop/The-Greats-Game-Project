@@ -47,14 +47,6 @@ namespace MarwanZaky
 
         }
 
-        protected override void Attack()
-        {
-            if (nextAttackTimer > 0) { return; }
-
-            nextAttackTimer = AttackLength + nextAttackDelay;
-
-            base.Attack();
-        }
 
         protected override void Movement()
         {
@@ -81,7 +73,6 @@ namespace MarwanZaky
                 else
                 {
                     agent.isStopped = true;
-                    Attack();
                 }
             }
             else
@@ -90,16 +81,6 @@ namespace MarwanZaky
                 agent.isStopped = false;
                 agent.SetDestination(startPos);
             }
-        }
-
-        protected override void OnDie()
-        {
-            base.OnDie();
-
-            agent.velocity = Vector3.zero;
-            agent.enabled = false;
-
-            Destroy(gameObject, 10f);
         }
 
         private void OnDrawGizmosSelected()

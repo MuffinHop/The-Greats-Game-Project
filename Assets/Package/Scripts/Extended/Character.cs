@@ -103,14 +103,6 @@ namespace MarwanZaky
             Alive();
         }
 
-        protected virtual void Attack()
-        {
-            if (IsAttack) { return; }
-
-            animator.SetTrigger("Attack");
-            OnAttack?.Invoke();
-        }
-
         protected virtual void Alive()
         {
 
@@ -136,16 +128,6 @@ namespace MarwanZaky
         protected virtual void OnGrounded()
         {
 
-        }
-
-        protected virtual void OnDie()
-        {
-            ragdoll.Die();
-        }
-
-        public virtual void Damage(float damage, Vector3 hitPoint)
-        {
-            AudioManager.Instance.Play(name: "Hurt", transform.position);
         }
 
         #region Behavoir
