@@ -43,10 +43,10 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.26
+    value: 0.84
   color:
     overrideState: 1
-    value: {r: 0.3301887, g: 0.1512532, b: 0, a: 1}
+    value: {r: 0, g: 0, b: 0, a: 1}
   ambientOnly:
     overrideState: 1
     value: 0
@@ -61,7 +61,7 @@ MonoBehaviour:
     value: -12
   thicknessModifier:
     overrideState: 1
-    value: 1.45
+    value: 1
   directLightingStrength:
     overrideState: 1
     value: 0
@@ -92,10 +92,10 @@ MonoBehaviour:
     value: 10
   aperture:
     overrideState: 1
-    value: 16.1
+    value: 30
   focalLength:
     overrideState: 1
-    value: 157
+    value: 219
   kernelSize:
     overrideState: 1
     value: 1
@@ -156,7 +156,6 @@ MonoBehaviour:
   m_Name: CM VirtualCamera Profile
   m_EditorClassIdentifier: 
   settings:
-  - {fileID: 6248647456118133995}
   - {fileID: -2244619672161672731}
   - {fileID: -3850313488892205009}
   - {fileID: 1848212284981708261}
