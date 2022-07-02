@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField, Range(0,1)] private float _redChannel;
+    [SerializeField, Range(0,1)] private float _greenChannel;
+    [SerializeField, Range(0,1)] private float _blueChannel;
 
-    // Update is called once per frame
+    [SerializeField] private Grayscale _grayscale;
     void Update()
     {
+        _grayscale.Red.value = _redChannel;    
+        _grayscale.Green.value = _greenChannel;   
+        _grayscale.Blue.value = _blueChannel;   
         
     }
 }
