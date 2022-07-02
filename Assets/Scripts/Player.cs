@@ -1,14 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering.PostProcessing;
-
+[ExecuteAlways]
 public class Player : MonoBehaviour
 {
     [SerializeField, Range(0,1)] private float _redChannel;
     [SerializeField, Range(0,1)] private float _greenChannel;
     [SerializeField, Range(0,1)] private float _blueChannel;
 
+    public void SetRed(float red)
+    {
+        _redChannel = red;
+    }
+    public void SetGreen(float green)
+    {
+        _greenChannel = green;
+    }
+    public void SetBlue(float blue)
+    {
+        _blueChannel = blue;
+    }
     void Update()
     {
         Shader.SetGlobalFloat("_Red", _redChannel);    
