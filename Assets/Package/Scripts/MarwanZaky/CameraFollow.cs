@@ -69,9 +69,9 @@ namespace MarwanZaky
                 mouseY = Input.GetAxis("Mouse Y") * mouseSensivity * Time.deltaTime;
             }
 
-
             yRotation += mouseX;
             xRotation -= mouseY;
+            Debug.Log(mouseY + "-----" + xRotation);
             xRotation = Mathf.Clamp(xRotation, minXRotation, maxXRotation);
 
             camera.localRotation = Quaternion.Euler(xRotation, yRotation, 0f);
