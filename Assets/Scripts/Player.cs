@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.PostProcessing;
 
 public class Player : MonoBehaviour
 {
@@ -8,12 +9,11 @@ public class Player : MonoBehaviour
     [SerializeField, Range(0,1)] private float _greenChannel;
     [SerializeField, Range(0,1)] private float _blueChannel;
 
-    [SerializeField] private Grayscale _grayscale;
     void Update()
     {
-        _grayscale.Red.value = _redChannel;    
-        _grayscale.Green.value = _greenChannel;   
-        _grayscale.Blue.value = _blueChannel;   
+        Shader.SetGlobalFloat("_Red", _redChannel);    
+        Shader.SetGlobalFloat( "_Green", _greenChannel);  
+        Shader.SetGlobalFloat( "_Blue", _blueChannel); 
         
     }
 }

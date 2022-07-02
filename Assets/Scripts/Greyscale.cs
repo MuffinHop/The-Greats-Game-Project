@@ -25,9 +25,6 @@ public class GrayscaleRenderer : PostProcessEffectRenderer<Grayscale>
     {
         var sheet = context.propertySheets.Get(Shader.Find("Hidden/Custom/Grayscale"));
         sheet.properties.SetFloat("_Blend", settings.blend);
-        sheet.properties.SetFloat("_Red", settings.Red);
-        sheet.properties.SetFloat("_Green", settings.Green);
-        sheet.properties.SetFloat("_Blue", settings.Blue);
         context.command.BlitFullscreenTriangle(context.source, context.destination, sheet, 0);
     }
 }
