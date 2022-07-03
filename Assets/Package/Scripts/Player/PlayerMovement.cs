@@ -180,6 +180,11 @@ namespace MarwanZaky
 
         private void Rig()
         {
+            if (cam == null)
+            {
+                cam = Camera.main;
+                return;
+            }
             const float SMOOTH_TIME = .1f;
             const float MIN_VECTOR_AIM_MEAD = 1f;
 

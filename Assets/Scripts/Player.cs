@@ -1,13 +1,16 @@
 using System;
+using MarwanZaky;
 using UnityEngine;
-[ExecuteAlways]
 public class Player : MonoBehaviour
 {
     [SerializeField, Range(0,1)] private float _redChannel;
     [SerializeField, Range(0,1)] private float _greenChannel;
     [SerializeField, Range(0,1)] private float _blueChannel;
     [SerializeField] private AudioSource[] _audioSources;
+    [SerializeField] private GameObject _camera;
+    [SerializeField] private GameObject _theend;
     private bool _turnRed, _turnGreen, _turnBlue;
+    public float Steps;
 
     public void Start()
     {
@@ -39,6 +42,10 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
+        if (Time.timeSinceLevelLoad > 4f) {
+        
+            _camera.SetActive(true);
+        }
         if (_turnRed)
         {
             _redChannel = Mathf.Min(_redChannel + Time.deltaTime/4f, 1f);
@@ -53,6 +60,12 @@ public class Player : MonoBehaviour
         {
             _blueChannel = Mathf.Min(_blueChannel + Time.deltaTime/4f, 1f);
             _audioSources[3].volume = Mathf.Min(_audioSources[3].volume + Time.deltaTime/4f, 1f);;
+        }
+
+        Steps = _redChannel + _greenChannel + _blueChannel;
+        if (Steps == 3f && GetComponent<PlayerMovement>().CanMove)
+        {
+            _theend.SetActive(true);
         }
         Shader.SetGlobalFloat("_Red", _redChannel);    
         Shader.SetGlobalFloat( "_Green", _greenChannel);  

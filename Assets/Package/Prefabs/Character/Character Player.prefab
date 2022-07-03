@@ -1047,11 +1047,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8888189707552699141, guid: 92c1a6f1611e842f19209af89755881b, type: 3}
   m_PrefabInstance: {fileID: 5545811059662544788}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &4174888319415848871 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8432571422901784627, guid: 92c1a6f1611e842f19209af89755881b, type: 3}
-  m_PrefabInstance: {fileID: 5545811059662544788}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4907148500509332242 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 643764373649443974, guid: 92c1a6f1611e842f19209af89755881b, type: 3}
@@ -1060,11 +1055,6 @@ Transform:
 --- !u!95 &5426191387443857663 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 557067118621644651, guid: 92c1a6f1611e842f19209af89755881b, type: 3}
-  m_PrefabInstance: {fileID: 5545811059662544788}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5896057935469446516 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2100274684835257056, guid: 92c1a6f1611e842f19209af89755881b, type: 3}
   m_PrefabInstance: {fileID: 5545811059662544788}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &5948932472079631852 stripped
@@ -1132,6 +1122,7 @@ MonoBehaviour:
   - {fileID: 1419430888474310946}
   - {fileID: 6375122347272627415}
   - {fileID: 4321106464844109595}
+  _camera: {fileID: 0}
 --- !u!114 &215051355538083297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1164,7 +1155,7 @@ MonoBehaviour:
     rigHeadAimWeight: 1
   - name: Sword
     controller: {fileID: 22100000, guid: 672eb8504242b43b48f0aa14aba328f8, type: 2}
-    weapon: {fileID: 5896057935469446516}
+    weapon: {fileID: 0}
     attackAudio: Attack
     rigChestAimWeight: 0
     rigHandRightAimWeight: 0
@@ -1172,7 +1163,7 @@ MonoBehaviour:
     rigHeadAimWeight: 1
   - name: Gun
     controller: {fileID: 22100000, guid: 354c16d1d05a640ccbb26808ba06c81d, type: 2}
-    weapon: {fileID: 4174888319415848871}
+    weapon: {fileID: 0}
     attackAudio: Fire
     rigChestAimWeight: 0.7
     rigHandRightAimWeight: 1

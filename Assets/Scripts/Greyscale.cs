@@ -11,7 +11,7 @@ public class Grayscale : PostProcessEffectSettings
 {
     // You can create boxed fields to override or blend parameters. This example uses a FloatParameter with a fixed range from 0 to 1.
     [Range(0f, 1f), Tooltip("Grayscale effect intensity.")] 
-    public FloatParameter blend = new FloatParameter { value = 0.5f };
+    public FloatParameter blend = new FloatParameter { value = 0.0f };
     [Range(0f, 2f)] 
     public FloatParameter Red = new FloatParameter { value = 0.0f };
     [Range(0f, 2f)] 
@@ -24,7 +24,6 @@ public class GrayscaleRenderer : PostProcessEffectRenderer<Grayscale>
     public override void Render(PostProcessRenderContext context)
     {
         var sheet = context.propertySheets.Get(Shader.Find("Hidden/Custom/Grayscale"));
-        sheet.properties.SetFloat("_Blend", settings.blend);
         context.command.BlitFullscreenTriangle(context.source, context.destination, sheet, 0);
     }
 }
