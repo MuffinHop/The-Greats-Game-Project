@@ -13,9 +13,13 @@ Shader "Hidden/Custom/Grayscale"
 // Compute the luminance for the current pixel
           float4 final = color;
           float luminance = dot(final.rgb, float3(0.2126729, 0.7151522, 0.0721750));
-          final.r = lerp(luminance,color.r,_Red);
-          final.g = lerp(luminance,color.g,_Green);
-          final.b = lerp(luminance,color.b,_Blue);
+          final.r = lerp(luminance,max(final.r,luminance),_Red);
+          final.g = lerp(luminance,max(final.g,luminance),_Green);
+          final.b = lerp(luminance,max(final.b,luminance),_Blue);
+          float avg = min(max(_Red+_Green+_Blue-2.0,0.0),1.0);
+          final.r = lerp(final.r,color.r,avg);
+          final.g = lerp(final.g,color.g,avg);
+          final.b = lerp(final.b,color.b,avg);
           final.a = 1.0;
 // Return the result
           return final;
