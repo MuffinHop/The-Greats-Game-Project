@@ -11,7 +11,7 @@ public class Npc : MonoBehaviour
 
     void Update()
     {
-        if (Vector3.Distance(_player.transform.position, transform.position) < 3f)
+        if (Vector3.Distance(_player.transform.position, transform.position) < 6f)
         {
             if (_redPerson)
             {
@@ -25,6 +25,7 @@ public class Npc : MonoBehaviour
             {
                 _player.TurnBlue();
             }
+            transform.LookAt(_player.transform);
         }
     }
 }
