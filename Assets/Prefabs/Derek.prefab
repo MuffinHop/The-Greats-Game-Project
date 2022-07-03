@@ -407,6 +407,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1681237631392065204}
+  - component: {fileID: 3408777611465700691}
   m_Layer: 0
   m_Name: Derek
   m_TagString: Untagged
@@ -437,6 +438,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3408777611465700691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026378056806235150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13811b34e876646a7aee68d1dffc8f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _player: {fileID: 0}
+  _redPerson: 0
+  _greenPerson: 0
+  _bluePerson: 0
+  textmesh: {fileID: 0}
+  pressenter: {fileID: 0}
+  background: {fileID: 0}
+  array:
+  - "Hi my dude! Name\u2019s Derek. Got sent here, \u2018cause mom wanted me to take
+    a break from football practice. But like, how else am I gonna get the quarterback
+    position??"
+  - "Hi bro! Would you look at this awesome-sauce place? This is like such a rad
+    place, though I can\u2019t figure out why we can\u2019t have our phones. I was
+    watching the Fast and Furious: Tokyo Drift right before we got here!"
+  - "I wonder when we\u2019re gonna eat. I\u2019m getting mad hungry. You think they\u2019ll
+    let us cook something with the fire? I make a mean s\u2019more!"
+  - Hi bro! Whatcha up to?
+  - "Man, I\u2019m so hungry, you wouldn\u2019t believe!"
 --- !u!1 &2295513467323752277
 GameObject:
   m_ObjectHideFlags: 0

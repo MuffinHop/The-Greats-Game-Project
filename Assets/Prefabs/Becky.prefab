@@ -136,6 +136,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1990304084902370878}
+  - component: {fileID: 3176098579462396808}
   m_Layer: 0
   m_Name: Becky
   m_TagString: Untagged
@@ -167,6 +168,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3176098579462396808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212923682669528196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13811b34e876646a7aee68d1dffc8f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _player: {fileID: 0}
+  _redPerson: 0
+  _greenPerson: 0
+  _bluePerson: 0
+  textmesh: {fileID: 0}
+  pressenter: {fileID: 0}
+  background: {fileID: 0}
+  array:
+  - "Hi! I\u2019m Becky. What got you sent here? My dad thought I\u2019ve been spending
+    too much time on Instagram, and they like take our phones away here, which is
+    just plain rude by the way. Luckily I sneaked in my second phone!"
+  - "Hello my beautiful gurlz! It\u2019s Beckylicious here! I\u2019ve been thrown
+    out into the wild with only one phone (which I had to sneak in), but luckily
+    I\u2019m still the local fashion queen! Check out these gorgeous boots by the
+    way!"
+  - You know, this place is actually kind of pretty. I might do some watercolour
+    paintings here, for the followers you know. You should follow me by the way!
+  - Ugh! I think I stepped in mud! Do you know how much these shoes cost??
+  - Hey, do you have a signal?
 --- !u!1 &1235563486671688924
 GameObject:
   m_ObjectHideFlags: 0

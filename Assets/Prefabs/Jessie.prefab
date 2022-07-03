@@ -817,6 +817,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8907067631166912891}
+  - component: {fileID: 368659642741868476}
   m_Layer: 0
   m_Name: Jessie
   m_TagString: Untagged
@@ -841,6 +842,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &368659642741868476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131128718759633857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13811b34e876646a7aee68d1dffc8f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _player: {fileID: 0}
+  _redPerson: 0
+  _greenPerson: 0
+  _bluePerson: 0
+  textmesh: {fileID: 0}
+  pressenter: {fileID: 0}
+  background: {fileID: 0}
+  array:
+  - "Hello, I\u2019m called Jessie. It\u2019s a pleasure. I rarely leave the house,
+    so I\u2019m rather out of sorts here. Mother thought I should experience life
+    outside, but as Poe once said: All that we see or seem is but a dream within
+    a dream."
+  - "I\u2019m not too fond of nature, I\u2019m more of a city dweller. Cities like
+    in Pulp Fiction, if you know it. It\u2019s not really for everyone, but it is
+    one of the greatest movies of all time, so I recommend it."
+  - I rather miss my phone, I admit. While technology is nothing compared to reading
+    the classics, I have been watching quite a lot of Kevin Harts comedy specials,
+    and would have wanted to finish the latest one.
+  - "I became insane, with long intervals of horrible sanity.\u2019 - Edgar Allan
+    Poe."
+  - "This Camp is truly tedious, don\u2019t you think? Stifles all creativity\u2026"
 --- !u!1 &8292247524186833050
 GameObject:
   m_ObjectHideFlags: 0
