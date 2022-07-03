@@ -1163,6 +1163,21 @@ MonoBehaviour:
   _redPerson: 0
   _greenPerson: 1
   _bluePerson: 0
+  textmesh: {fileID: 0}
+  pressenter: {fileID: 0}
+  background: {fileID: 0}
+  array:
+  - "Oh, hi. I\u2019m Lilith, resident DnD expert and disappointment (the latter
+    according to my parents). <br>What do you want?"
+  - "I can\u2019t believe the irony of being here amongst all this nature and these
+    plants, <br>all the while the ones in my room are dying. <br>Seriously. Just
+    for this, I\u2019m going to drag so much mud into the house when we get back"
+  - "If you need help escaping from here, I brought all the stuff for my knitting
+    with me. Imbeciles. Just cause it looks like a cute hobby doesn\u2019t mean I
+    can\u2019t stab you with the needles and make a run for it."
+  - "If they make us sing camp songs, or worse, hymns, I\u2019m going to throw myself
+    in the fire"
+  - "Pop quiz! What is a \u2018disappointment\u2019 in non-bigot-speech?"
 --- !u!1 &7358973127682428770
 GameObject:
   m_ObjectHideFlags: 0

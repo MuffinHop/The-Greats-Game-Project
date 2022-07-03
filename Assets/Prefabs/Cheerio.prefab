@@ -658,7 +658,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6478536213147159724, guid: f91b0af513e9a47d3bee262e4f640a99, type: 3}
+  - {fileID: 2100000, guid: c711df5914e9e4fcc9aa256def92d1ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -913,6 +913,24 @@ MonoBehaviour:
   _redPerson: 0
   _greenPerson: 0
   _bluePerson: 1
+  textmesh: {fileID: 0}
+  pressenter: {fileID: 0}
+  background: {fileID: 0}
+  array:
+  - "Hiya! My name\u2019s Cheerio, and yes, I chose it myself. <br> Fits me quite
+    well, right? I decided early on in life that I was going to be honest and happy,<br>
+    and I\u2019ve kept to it quite well so far.\u201D"
+  - "Ooohh, this place looks like it would be perfect for some rock climbing, don\u2019t
+    you think? <br>I love climbing, it feels like I\u2019m in Assassin\u2019s Creed
+    or Zelda or something!"
+  - "I honestly find this camp kind of funny. <br> They\u2019re trying to teach us
+    to become honest, upstanding citizens, right? Well if we\u2019re going by their
+    standrads, it\u2019s only going to be one or the other in my case: <br>honest
+    OR and upstanding citizen."
+  - "How are you?<br>I myself can\u2019t wait to climb one of these walls and spread
+    my wings!"
+  - "I\u2019d offer you a muffin, but I haven\u2019t really had a chance to bake
+    here."
 --- !u!1 &8098303961563845248
 GameObject:
   m_ObjectHideFlags: 0

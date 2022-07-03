@@ -172,7 +172,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f31bc9f33535c480db226d3905d51a3e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -300,7 +300,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 20bf49b308f9442aaa1e74731c34504b, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -428,7 +428,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 6b79a68720787470a9103d8b308e7bc4, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1184,6 +1184,7 @@ MonoBehaviour:
   rigHandLeftAim: {fileID: 1461488827156076136}
   rigHeadAim: {fileID: 509979980969176354}
   rigTarget: {fileID: 4012598090395053201}
+  CanMove: 0
   controller: {fileID: 8887359875736762428}
   cursorLockMode: 1
   moveAir: 0

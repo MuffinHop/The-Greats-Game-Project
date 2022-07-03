@@ -49,7 +49,7 @@ namespace MarwanZaky
         [SerializeField] protected TwoBoneIKConstraint rigHandLeftAim;
         [SerializeField] protected MultiAimConstraint rigHeadAim;
         [SerializeField] protected Transform rigTarget;
-
+        public bool CanMove;
         public Action OnAttack { get; set; }
         public Action<int> OnCurrentControllerChange { get; set; }
 
@@ -92,7 +92,7 @@ namespace MarwanZaky
         protected virtual void Start()
         {
             IsAlive = true;
-
+            CanMove = true;
             UpdateCurrentBehavoir(defaultBehavoir);
         }
 
@@ -115,8 +115,11 @@ namespace MarwanZaky
 
         protected virtual void Movement()
         {
-            Animator_MoveX = GetAnimMoveVal(Move.x, Animator_MoveX, ref smoothAnimValVelX);
-            Animator_MoveY = GetAnimMoveVal(Move.y, Animator_MoveY, ref smoothAnimValVelY);
+            if (CanMove)
+            {
+                Animator_MoveX = GetAnimMoveVal(Move.x, Animator_MoveX, ref smoothAnimValVelX);
+                Animator_MoveY = GetAnimMoveVal(Move.y, Animator_MoveY, ref smoothAnimValVelY);
+            }
         }
 
         protected virtual void IsGrounded()

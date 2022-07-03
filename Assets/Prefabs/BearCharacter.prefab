@@ -612,6 +612,22 @@ MonoBehaviour:
   _redPerson: 1
   _greenPerson: 0
   _bluePerson: 0
+  textmesh: {fileID: 0}
+  pressenter: {fileID: 0}
+  background: {fileID: 0}
+  array:
+  - "Hey. I\u2019m Kurt. It\u2019s nice to meet you. I\u2019ve got to say, even though
+    I wasn\u2019t really all that\u2026 hyped to come here, the scenery is kinda
+    pretty. Almost reminds me of a Disney film, like Sleeping Beauty during the dance
+    scene?"
+  - "Man, I hope they don\u2019t go through my phone\u2026 Like, I get it, taking
+    them away from us, forcing us to really enjoy the nature, but I\u2019m not really
+    comfortable with them checking my messages or anything."
+  - "Should we go on a hike or something? Can\u2019t really hit the gym or anything,
+    so we should get exercise at least somehow, right?"
+  - "Maybe in the evening we could do some singing and dancing around the fire? I\u2019ve
+    been dancing for years now, and let me tell you, I got some moves."
+  - "Why was I sent here? Uhh\u2026well, according to dad I\u2026 nevermind."
 --- !u!1 &3070969443622820023
 GameObject:
   m_ObjectHideFlags: 0

@@ -130,11 +130,16 @@ namespace MarwanZaky
 
         protected override void Movement()
         {
-            var move = (transform.right * Move.x + transform.forward * Move.y).normalized;
 
-            smoothMove = Vector3.SmoothDamp(smoothMove, move * Speed, ref smoothMoveVel, smoothMoveTime);
+            if (CanMove)
+            {
 
-            controller.Move(smoothMove * Time.deltaTime);
+                var move = (transform.right * Move.x + transform.forward * Move.y).normalized;
+
+                smoothMove = Vector3.SmoothDamp(smoothMove, move * Speed, ref smoothMoveVel, smoothMoveTime);
+
+                controller.Move(smoothMove * Time.deltaTime);
+            }
 
             base.Movement();
         }
