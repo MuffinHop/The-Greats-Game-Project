@@ -15,15 +15,15 @@ public class Npc : MonoBehaviour
         {
             if (_redPerson)
             {
-                _player.SetRed(1.0f);
+                _player.TurnRed();
             }
             if (_greenPerson)
             {
-                _player.SetGreen(1.0f);
+                _player.TurnGreen();
             }
             if (_bluePerson)
             {
-                _player.SetBlue(1.0f);
+                _player.TurnBlue();
             }
         }
     }

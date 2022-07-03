@@ -1,5 +1,61 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5933153238308240199
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Grayscale
+  m_EditorClassIdentifier: Assembly-CSharp::Grayscale
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  blend:
+    overrideState: 1
+    value: 0.5
+  Red:
+    overrideState: 1
+    value: 0
+  Green:
+    overrideState: 1
+    value: 0
+  Blue:
+    overrideState: 1
+    value: 0
+--- !u!114 &-4609050797806513677
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Grayscale
+  m_EditorClassIdentifier: Assembly-CSharp::Grayscale
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  blend:
+    overrideState: 0
+    value: 0.5
+  Red:
+    overrideState: 0
+    value: 0
+  Green:
+    overrideState: 0
+    value: 0
+  Blue:
+    overrideState: 0
+    value: 0
 --- !u!114 &-3953674026685021518
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -162,7 +218,7 @@ MonoBehaviour:
   - {fileID: -221982465354614237}
   - {fileID: 3660909339040781928}
   - {fileID: -3953674026685021518}
-  - {fileID: 1723709952906832569}
+  - {fileID: -4609050797806513677}
 --- !u!114 &1016043511445056875
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -364,7 +420,7 @@ MonoBehaviour:
     value: 0
   mixerGreenOutGreenIn:
     overrideState: 1
-    value: 100
+    value: 120
   mixerGreenOutBlueIn:
     overrideState: 1
     value: 0
@@ -1586,6 +1642,34 @@ MonoBehaviour:
       - 0.5
       - 0.5
       - 0.5
+--- !u!114 &5159962234346294268
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Grayscale
+  m_EditorClassIdentifier: Assembly-CSharp::Grayscale
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  blend:
+    overrideState: 0
+    value: 0.5
+  Red:
+    overrideState: 0
+    value: 0
+  Green:
+    overrideState: 0
+    value: 0
+  Blue:
+    overrideState: 0
+    value: 0
 --- !u!114 &6248647456118133995
 MonoBehaviour:
   m_ObjectHideFlags: 3
