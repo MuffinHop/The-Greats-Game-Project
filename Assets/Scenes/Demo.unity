@@ -983,6 +983,18 @@ PrefabInstance:
       propertyPath: _player
       value: 
       objectReference: {fileID: 1565776098}
+    - target: {fileID: 3408777611465700691, guid: 65a9d5c46af3f774bb710dedff4b7a9a, type: 3}
+      propertyPath: textmesh
+      value: 
+      objectReference: {fileID: 1818225675}
+    - target: {fileID: 3408777611465700691, guid: 65a9d5c46af3f774bb710dedff4b7a9a, type: 3}
+      propertyPath: background
+      value: 
+      objectReference: {fileID: 1818225676}
+    - target: {fileID: 3408777611465700691, guid: 65a9d5c46af3f774bb710dedff4b7a9a, type: 3}
+      propertyPath: pressenter
+      value: 
+      objectReference: {fileID: 1818225674}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65a9d5c46af3f774bb710dedff4b7a9a, type: 3}
 --- !u!1 &327151465
@@ -2817,6 +2829,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5258716084004216172, guid: aac9819b8e5bf46228bb4b7d9b365a57, type: 3}
   m_PrefabInstance: {fileID: 932747805}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &942329957
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 45665340072225906, guid: cb871bc8be04548f3ab7e1b8f4d4ef4e, type: 3}
+      propertyPath: m_Name
+      value: Notski (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 858477574022313672, guid: cb871bc8be04548f3ab7e1b8f4d4ef4e, type: 3}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 858477574022313672, guid: cb871bc8be04548f3ab7e1b8f4d4ef4e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 58.629
+      objectReference: {fileID: 0}
+    - target: {fileID: 858477574022313672, guid: cb871bc8be04548f3ab7e1b8f4d4ef4e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.11306
+      objectReference: {fileID: 0}
+    - target: {fileID: 858477574022313672, guid: cb871bc8be04548f3ab7e1b8f4d4ef4e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -21.738
+      objectReference: {fileID: 0}
+    - target: {fileID: 858477574022313672, guid: cb871bc8be04548f3ab7e1b8f4d4ef4e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 858477574022313672, guid: cb871bc8be04548f3ab7e1b8f4d4ef4e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 858477574022313672, guid: cb871bc8be04548f3ab7e1b8f4d4ef4e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 858477574022313672, guid: cb871bc8be04548f3ab7e1b8f4d4ef4e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 858477574022313672, guid: cb871bc8be04548f3ab7e1b8f4d4ef4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 858477574022313672, guid: cb871bc8be04548f3ab7e1b8f4d4ef4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 858477574022313672, guid: cb871bc8be04548f3ab7e1b8f4d4ef4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cb871bc8be04548f3ab7e1b8f4d4ef4e, type: 3}
 --- !u!1001 &946712804
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4800,6 +4869,18 @@ PrefabInstance:
       propertyPath: _player
       value: 
       objectReference: {fileID: 1565776098}
+    - target: {fileID: 3176098579462396808, guid: 41381680612b59846a4b4e0e4acdb798, type: 3}
+      propertyPath: textmesh
+      value: 
+      objectReference: {fileID: 1818225675}
+    - target: {fileID: 3176098579462396808, guid: 41381680612b59846a4b4e0e4acdb798, type: 3}
+      propertyPath: background
+      value: 
+      objectReference: {fileID: 1818225676}
+    - target: {fileID: 3176098579462396808, guid: 41381680612b59846a4b4e0e4acdb798, type: 3}
+      propertyPath: pressenter
+      value: 
+      objectReference: {fileID: 1818225674}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41381680612b59846a4b4e0e4acdb798, type: 3}
 --- !u!1001 &1481136645
@@ -4875,6 +4956,18 @@ PrefabInstance:
       propertyPath: _player
       value: 
       objectReference: {fileID: 1565776098}
+    - target: {fileID: 368659642741868476, guid: 06c80b019fec4704fa7cba8c074b7454, type: 3}
+      propertyPath: textmesh
+      value: 
+      objectReference: {fileID: 1818225675}
+    - target: {fileID: 368659642741868476, guid: 06c80b019fec4704fa7cba8c074b7454, type: 3}
+      propertyPath: background
+      value: 
+      objectReference: {fileID: 1818225676}
+    - target: {fileID: 368659642741868476, guid: 06c80b019fec4704fa7cba8c074b7454, type: 3}
+      propertyPath: pressenter
+      value: 
+      objectReference: {fileID: 1818225674}
     - target: {fileID: 8131128718759633857, guid: 06c80b019fec4704fa7cba8c074b7454, type: 3}
       propertyPath: m_Name
       value: Jessie
