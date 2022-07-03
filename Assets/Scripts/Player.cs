@@ -6,6 +6,12 @@ public class Player : MonoBehaviour
     [SerializeField, Range(0,1)] private float _greenChannel;
     [SerializeField, Range(0,1)] private float _blueChannel;
 
+    public void Start()
+    {
+        _redChannel = 0f;
+        _greenChannel = 0f;
+        _blueChannel = 0f;
+    }
     public void SetRed(float red)
     {
         _redChannel = red;
