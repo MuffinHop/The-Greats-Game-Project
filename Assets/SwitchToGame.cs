@@ -16,7 +16,7 @@ public class SwitchToGame : MonoBehaviour
     {
         if (Input.GetButtonDown("Submit"))
         {
-            SceneManager.LoadScene (sceneName:"Demo.scene");
+            SceneManager.LoadScene (sceneName:"Scenes/Demo");
         }
     }
 }

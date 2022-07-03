@@ -246,7 +246,7 @@ MonoBehaviour:
   - {fileID: -221982465354614237}
   - {fileID: 3660909339040781928}
   - {fileID: -3953674026685021518}
-  - {fileID: -5534740947880145806}
+  - {fileID: 6115735858971509076}
 --- !u!114 &1016043511445056875
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1698,6 +1698,34 @@ MonoBehaviour:
   Blue:
     overrideState: 0
     value: 0
+--- !u!114 &6115735858971509076
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Grayscale
+  m_EditorClassIdentifier: Assembly-CSharp::Grayscale
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  blend:
+    overrideState: 0
+    value: 0.5
+  Red:
+    overrideState: 0
+    value: 0
+  Green:
+    overrideState: 0
+    value: 0
+  Blue:
+    overrideState: 0
+    value: 0
 --- !u!114 &6248647456118133995
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1726,6 +1754,34 @@ MonoBehaviour:
   Blue:
     overrideState: 1
     value: 1.046
+--- !u!114 &7469422109454366928
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Grayscale
+  m_EditorClassIdentifier: Assembly-CSharp::Grayscale
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  blend:
+    overrideState: 0
+    value: 0.5
+  Red:
+    overrideState: 0
+    value: 0
+  Green:
+    overrideState: 0
+    value: 0
+  Blue:
+    overrideState: 0
+    value: 0
 --- !u!114 &9094838080309743366
 MonoBehaviour:
   m_ObjectHideFlags: 3

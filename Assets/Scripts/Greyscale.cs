@@ -7,7 +7,7 @@ using UnityEngine.Rendering.PostProcessing;
 [Serializable] 
 // The [PostProcess()] attribute tells Unity that this class holds post-processing data. The first parameter links the settings to a renderer. The second parameter creates the injection point for the effect. The third parameter is the menu entry for the effect. You can use a forward slash (/) to create sub-menu categories. 
 [PostProcess(typeof(GrayscaleRenderer), PostProcessEvent.AfterStack, "Custom/Grayscale")]
-public sealed class Grayscale : PostProcessEffectSettings
+public class Grayscale : PostProcessEffectSettings
 {
     // You can create boxed fields to override or blend parameters. This example uses a FloatParameter with a fixed range from 0 to 1.
     [Range(0f, 1f), Tooltip("Grayscale effect intensity.")] 
